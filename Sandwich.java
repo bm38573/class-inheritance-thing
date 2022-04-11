@@ -2,9 +2,9 @@ public class Sandwich{
 	private String name;
 	private int length;
 
-	public Sandwich(Sring sandwichName, int sandwichLength){
+	public Sandwich(String sandwichName, int sandwichLength){
 		name = sandwichName;
-		length = sandwichLength
+		length = sandwichLength;
 	}
 
 	public int getLength(){
@@ -15,7 +15,7 @@ public class Sandwich{
 		return name;
 	}
 
-	public static void setLength(int newLength){
+	public void setLength(int newLength){
 		length = newLength;
 	}
 }

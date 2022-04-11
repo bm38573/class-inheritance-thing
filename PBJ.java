@@ -1,9 +1,9 @@
-public class PBJ extends Sandwhich{
+public class PBJ extends Sandwich{
 	private boolean hasPeanutButter;
 	private boolean hasJelly;
 
 	public PBJ(boolean peanutButter, boolean jelly){
-		super(sandwichName, sandwichLength)
+		super(sandwichName, sandwichLength);
 		hasPeanutButter = peanutButter;
 		hasJelly = jelly;
 	}
@@ -16,11 +16,11 @@ public class PBJ extends Sandwhich{
 		return hasJelly;
 	}
 
-	public static void setHasPeanutButter(boolean bool){
+	public void setHasPeanutButter(boolean bool){
 		hasPeanutButter = bool;
 	}
 
-	public static void setHasJelly(boolean bool){
+	public void setHasJelly(boolean bool){
 		hasJelly = bool;
 	}
 }
